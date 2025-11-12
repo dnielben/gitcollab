@@ -45,9 +45,9 @@ $$
 
 Gradient descent iteratively updates w and b in the direction of steepest descent of J. With learning rate (step size) \(\alpha\), the updates are:
 
-\[
+$$
 w := w - \alpha \frac{\partial J}{\partial w},\qquad b := b - \alpha \frac{\partial J}{\partial b}
-\]
+$$
 
 Compute derivatives (vectorized / summed form):
 
@@ -65,13 +65,13 @@ $$
 
 So a full batch gradient descent update becomes:
 
-\[
+$$
 w := w - \alpha \left(\frac{1}{m} \sum_{i=1}^m (\hat y^{(i)} - y^{(i)}) x^{(i)}\right)
-\]
+$$
 
-\[
+$$
 b := b - \alpha \left(\frac{1}{m} \sum_{i=1}^m (\hat y^{(i)} - y^{(i)})\right)
-\]
+$$
 
 ### 5) Intuition and tips
 
