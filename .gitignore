@@ -1,0 +1,18 @@
+# Python virtual env
+.venv/
+
+# Outputs and generated images
+outputs/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
